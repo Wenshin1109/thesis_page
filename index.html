@@ -1,7 +1,7 @@
 ﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <html>
 <head>
-    <title>論文題目</title>
+    <title>影像分割模型梯度加權類別活化映射分析</title>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.lp.css">
 	<link rel="stylesheet" type="text/css" href="css/landing-page.css">
@@ -33,9 +33,9 @@
                 <ul class="nav navbar-nav navbar-right">
                     <li><a href="#top">回頂端</a></li>
 		    <li><a href="#demo1">摘要</a></li>
-		    <li><a href="#demo2">引用文獻</a></li>
-                    <li><a href="#demo3">示範</a></li>
-                    <li><a href="#demo4">影片</a></li>	
+		    <li><a href="#demo2">論文介紹影片</a></li>
+                    <li><a href="#demo3">結果</a></li>
+                    <li><a href="#demo4">標題</a></li>	
                 </ul>
             </div>
             <!-- /.navbar-collapse -->
@@ -52,16 +52,17 @@
             <div class="row">
                 <div class="col-lg-12" style="height:300px;">
                     <div class="intro-message" style="position: relative;padding-top: 0%;padding-bottom: 70%;">
-                        <h1>論文題目</h1>
+                        <h1>影像分割模型梯度加權類別活化映射分析</h1>
+                        <h2>Image Segmentation Model Gradient-Weighted Class Activation Mapping Analysis</h2>
                         <ul class="list-inline intro-social-buttons">
                             <li>
                                 <a href="demo.html" class="btn btn-default btn-lg"> 
-                                    <span class="network-name" style="font-weight: 900;">進入系統</span>
+                                    <span class="network-name" style="font-weight: 900;">進入Github頁面</span>
                                 </a>
                             </li>
 			    <li>
 				<!-- 使用 姓名貼紙產生器(彭) https://howlemon.github.io/ct2022s/hw02/index.html 製作姓名 SVG-->
-				<img src="https://raw.githubusercontent.com/t109598054/VR360_classroom/e00c28d19318a4c965b677af5bd7f2dbd4b8dd1d/img/svg/fang.svg" width="100" />
+				<!-- <img src="https://raw.githubusercontent.com/t109598054/VR360_classroom/e00c28d19318a4c965b677af5bd7f2dbd4b8dd1d/img/svg/fang.svg" width="100" /> -->
 			    </li>
                         </ul>
                     </div>
@@ -81,8 +82,8 @@
                 <div class="col-lg-5 col-sm-6">
                     <hr class="section-heading-spacer">
                     <div class="clearfix"></div>
-			<h2 class="section-heading">摘要</h2>
-			<p class="lead">內文內文內文內文內文內文內文內文內文內文</p>
+			        <h2 class="section-heading">摘要</h2>
+			        <p class="lead">醫學影像分析領域中，心臟肌肉分割對疾病的診斷與治療具有重要意義。然而，深度學習模型的黑箱特性使醫療人員難以理解和信任其決策過程，因此需要有效的可視化方法來解釋模型的內部機制。本研究嘗試將 Grad-CAM 應用於三維醫學影像分割模型，以預訓練的 InceptionNeXt-ResCBAM 進行實驗，生成熱力圖揭示模型推論時的關注區域，並分析其在三維影像分割任務中的表現與解釋能力。本研究貢獻有二，其一，將 Grad-CAM 核心計算流程導入 InceptionNeXt-ResCBAM，分析其應用於三維醫學影像分割的適用性與限制。其二，探索從 Grad-CAM 的技術導入到生成熱力圖的過程中所遇到的挑戰與解決策略，包括特徵圖大小不符、記憶體需求高、模型輸入與目標層選擇等問題，並提出未來改進方向。為可解釋人工智慧在三維醫學影像分析領域的應用提供有價值的經驗與參考。</p>
                 </div>
                 <div class="col-lg-5 col-lg-offset-2 col-sm-6">
 					<br><br><br>
@@ -101,13 +102,11 @@
                 <div class="col-lg-5 col-sm-6">
                     <hr class="section-heading-spacer">
                     <div class="clearfix"></div>
-                    <h2 class="section-heading">引用文獻</h2>
-			<p class="lead">內文內文內文內文內文內文內文內文內文內文</p>
-                </div>
-                <div class="col-lg-5 col-lg-offset-2 col-sm-6">
-		    <br><br><br>
-                    <img class="img-responsive" src="img/ipad.png" alt="">
-                </div>
+                    <h2 class="section-heading">論文介紹影片</h2>
+                    <video width="1100" controls>
+                        <source src="./video/mov_bbb.mp4" type="video/mp4">
+                        Your browser does not support HTML video.
+                    </video>
             </div>
         </div>
         <!-- /.container -->
@@ -121,11 +120,11 @@
                 <div class="col-lg-5 col-sm-6">
                     <hr class="section-heading-spacer">
                     <div class="clearfix"></div>
-			<h2 class="section-heading">示範</h2>
-			<p class="lead">內文內文內文內文內文內文內文內文內文內文</p>
+                    <h2 class="section-heading">結果</h2>
+                    <p class="lead">內文內文內文內文內文內文內文內文內文內文</p>
                 </div>
                 <div class="col-lg-5 col-lg-offset-2 col-sm-6">
-		    <br><br><br>
+                    <br><br><br>
                     <img class="img-responsive" src="img/phones.png" alt="">
                 </div>
             </div>
@@ -141,15 +140,12 @@
                 <div class="col-lg-5 col-sm-6">
                     <hr class="section-heading-spacer">
                     <div class="clearfix"></div>
-			<h2 class="section-heading">影片</h2>
-			<p class="lead">內文內文內文內文內文內文內文內文內文內文</p>
+			        <h2 class="section-heading">標題</h2>
+			        <p class="lead">內文內文內文內文內文內文內文內文內文內文</p>
                 </div>
                 <div class="col-lg-5 col-lg-offset-2 col-sm-6">
-			<br><br><br>
-			<video width="400" controls>
-			  <source src="./video/mov_bbb.mp4" type="video/mp4">
-			  Your browser does not support HTML video.
-			</video>
+                    <br><br><br>
+                    <img class="img-responsive" src="img/phones.png" alt="">
                 </div>
             </div>
         </div>
