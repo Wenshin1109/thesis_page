@@ -53,7 +53,7 @@
                 <div class="col-lg-12" style="height:300px;">
                     <div class="intro-message" style="position: relative;padding-top: 0%;padding-bottom: 70%;">
                         <h1>影像分割模型梯度加權類別活化映射分析</h1>
-                        <h2>Image Segmentation Model Gradient-Weighted Class Activation Mapping Analysis</h2>
+                        <h2 style="text-shadow: 0.1em 0.1em 0.2em black">Image Segmentation Model Gradient-Weighted Class Activation Mapping Analysis</h2>
                         <!-- <ul class="list-inline intro-social-buttons">
                             <li>
                                 <a href="demo.html" class="btn btn-default btn-lg"> 
@@ -85,7 +85,7 @@
 			        <h2 class="section-heading">摘要</h2>
 			        <p class="lead">醫學影像分析領域中，心臟肌肉分割對疾病的診斷與治療具有重要意義。然而，深度學習模型的黑箱特性使醫療人員難以理解和信任其決策過程，因此需要有效的可視化方法來解釋模型的內部機制。本研究嘗試將 Grad-CAM 應用於三維醫學影像分割模型，以預訓練的 InceptionNeXt-ResCBAM 進行實驗，生成熱力圖揭示模型推論時的關注區域，並分析其在三維影像分割任務中的表現與解釋能力。本研究貢獻有二，其一，將 Grad-CAM 核心計算流程導入 InceptionNeXt-ResCBAM，分析其應用於三維醫學影像分割的適用性與限制。其二，探索從 Grad-CAM 的技術導入到生成熱力圖的過程中所遇到的挑戰與解決策略，包括特徵圖大小不符、記憶體需求高、模型輸入與目標層選擇等問題，並提出未來改進方向。為可解釋人工智慧在三維醫學影像分析領域的應用提供有價值的經驗與參考。</p>
                 </div>
-                <div class="col-lg-5 col-lg-offset-2 col-sm-6">
+                <div class="col-lg-7 col-lg-offset-0 col-sm-6">
 					<br><br><br>
                     <img class="img-responsive" src="img/Intro.PNG" alt="">
                 </div>
@@ -117,11 +117,11 @@
 	<div class="content-section-a">
         <div class="container">
             <div class="row">
-                <div class="col-lg-5 col-sm-6">
+                <div class="col-lg-12 col-sm-6">
                     <hr class="section-heading-spacer">
                     <div class="clearfix"></div>
                     <h2 class="section-heading">結果</h2>
-                    <p class="lead">內文內文內文內文內文內文內文內文內文內文</p>
+                    <p class="lead">熱力圖疊加於原始資料之結果。部分圖片亮區集中於影像的邊緣或背景，未能有效覆蓋心臟肌肉的主要區域。部分圖片則有大範圍亮區覆蓋，未能正確集中於心臟肌肉區域。顯示Grad-CAM 執行上可能有影像尺寸、滑動窗口設定等問題，導致生成結果不如預期。</p>
                 </div>
                     <img class="img-responsive" src="img/result.png" alt="">
             </div>
