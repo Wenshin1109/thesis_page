@@ -139,22 +139,40 @@
                     <div class="clearfix"></div>
 			        <h2 class="section-heading">程式碼</h2>
 			        <p class="lead">
-                        <a href="demo.html" class="btn btn-default btn-lg"> 
-                            <span class="network-name" style="font-weight: 900;">3D U-Net 版 colab</span>
-                        </a><br>
-                        <a href="demo.html" class="btn btn-default btn-lg"> 
-                            <span class="network-name" style="font-weight: 900;">InceptionNeXt-ResCBAM 版 colab</span>
+                        <a href="https://colab.research.google.com/drive/1kJW-s6SoH3n9rPnUAr1Tur6K7zrobLYM?usp=sharing" class="btn btn-default btn-lg"> 
+                            <span class="network-name" style="font-weight: 900;">3D U-Net + Grad-CAM colab</span>
                         </a><br><br>
                         <a href="https://github.com/Wenshin1109/CardiacSeg_gradcam" class="btn btn-default btn-lg"> 
-                            <span class="network-name" style="font-weight: 900;">CardiacSeg_gradcam</span>
-                        </a><br>
+                            <span class="network-name" style="font-weight: 900;">3D U-Net + Grad-CAM Github</span>
+                        </a><br><br><br>
+                        <a href="https://colab.research.google.com/drive/1lGPO0Nk_qz7vzSgAEZRY1OVO2B5Wbs-l?usp=sharing" class="btn btn-default btn-lg"> 
+                            <span class="network-name" style="font-weight: 900;">岱蓉版 colab</span>
+                        </a><br><br>
                         <a href="https://github.com/Wenshin1109/CardiacSegV2_gradcam" class="btn btn-default btn-lg"> 
-                            <span class="network-name" style="font-weight: 900;">CardiacSegV2_gradcam</span>
-                        </a>
-
+                            <span class="network-name" style="font-weight: 900;">岱蓉版 Github</span>
+                        </a><br><br><br>
                     </p>
                 </div>
-                <div class="col-lg-5 col-lg-offset-2 col-sm-6">
+                
+            </div>
+            <div class="row">
+                <div class="col-lg-6 col-sm-6">
+                    <h3>執行步驟</h3>
+                    <p class="lead">
+                        Colab 內有程式執行步驟，執行前請依照右圖的結構在自己的雲端硬碟手動建立資料夾。並將要進行推論與熱力圖生成的影像放到 image 資料夾中，infer 資料夾則是用於儲存推論結果。
+                        <br><br>
+                        Step 1: 將程式碼從 GitHub clone 到工作階段中並安裝所需套件，建立推論所需資料夾。
+                        <br>
+                        Step 2: 下載權重檔。
+                        <br>
+                        Step 3: 將工作階段連接到自己的雲端硬碟。
+                        <br>
+                        Step 4: 執行推論，儲存 Grad-CAM 計算結果。
+                        <br>
+                        Step 5: 將 Grad-CAM 計算出的熱力圖逐切片疊加於原始影像並儲存成 png 檔案。
+                    </p>
+                </div>
+                <div class="col-lg-5 col-lg-offset-1 col-sm-12">
                     <br><br><br>
                     <img class="img-responsive" src="img/000.png" alt="">
                 </div>
